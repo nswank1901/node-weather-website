@@ -33,6 +33,7 @@ app.get("/about", (req, res) => {
   res.render("about", {
     title: "About Me",
     name: "Nic Swank",
+    aboutText: "This site was created by Nicolas Swank. It uses data from positionstack.com and weatherstack.com!"
   });
 });
 

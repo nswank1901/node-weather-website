@@ -53,3 +53,14 @@ button {
   color: white;
   padding: 8px;
 }
+
+.about {
+  text-align: center;
+  margin: 20px auto 10px auto; /* top | right | bottom | left */
+  font-size: 1rem;
+  color: #555;
+  max-width: 600px;
+  line-height: 1.4;
+  padding: 0 20px;
+  clear: both; /* if needed to avoid floating issues */
+}
